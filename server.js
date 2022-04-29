@@ -26,7 +26,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-app.listen(3000, function () {
+app.listen(8080, function () {
     console.log("server started at 3000")
 });
 
